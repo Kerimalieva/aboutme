@@ -1,0 +1,69 @@
+h1 {
+  text-align: center;
+  font-size: 50px; 
+}
+
+.banner {
+  background-image: url(./wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 15px;
+}
+
+.banner .banner-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.banner .banner-content h1 {
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 2em;
+}
+
+.banner .banner-content p {
+  color:#FFFFFF;
+  font-size: 1.5em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+
+}
+
+.photo-section {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 50px;
+ }
+
+.about{
+  width:50%;
+  text-align: center;
+}
+
+.img-round{
+  border-radius: 50%;
+  width: 50%;
+}
+.text-about{
+  margin-top: 65px;
+  border: 10px;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 74, 42);
+  display: block;
+  margin: auto;
+  border: 2px solid #000;
+  width: 600px;
+  margin-bottom: 40px;
+}
